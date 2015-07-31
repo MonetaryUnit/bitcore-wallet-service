@@ -38,7 +38,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.bitpay.com:443',
+      url: 'https://api.monetaryunit.org',
     },
     testnet: {
       provider: 'insight',
@@ -56,7 +56,7 @@ var config = {
   //  defaultLanguage: 'en',
   //  defaultUnit: 'btc',
   //  publicTxUrlTemplate: {
-  //    livenet: 'https://insight.bitpay.com/tx/{{txid}}',
+  //    livenet: 'https://api.monetaryunit.org/tx/{{txid}}',
   //    testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
   //  },
   //},

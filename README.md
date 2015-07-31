@@ -25,7 +25,7 @@ More about BWS at http://blog.bitpay.com/2015/03/05/bitcore-wallet.html
  npm start
 ```
 
-This will launch the BWS service (with default settings) at `http://localhost:3232/bws/api`.
+This will launch the BWS service (with default settings) at `https://bws.monetaryunit.org/bws/api`.
 
 BWS needs mongoDB. You can configure the connection at `config.js`
 
