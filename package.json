@@ -11,16 +11,16 @@
     "bitcore"
   ],
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-service.git",
+    "url": "git@github.com:MonetaryUnit/bitcore-wallet-service.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
+    "url": "https://github.com/MonetaryUnit/bitcore-wallet-service/issues"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "bitcore": "^0.12.9",
-    "bitcore-wallet-utils": "^0.1.0",
+    "bitcore": "MonetaryUnit/bitcore#MUE",
+    "bitcore-wallet-utils": "MonetaryUnit/bitcore-wallet-utils#MUE",
     "body-parser": "^1.11.0",
     "coveralls": "^2.11.2",
     "email-validator": "^1.0.1",
